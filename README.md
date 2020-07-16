@@ -21,4 +21,31 @@ Since predictors are categorical, they are plotted as Bivariate countplots  wher
 Looking at the plots we can see that Features like SSL_Final_state, web_traffic,Domain_registeration_length, URL_of_anchor have a greater difference between the classes. 
 And Almost all features are having atleast some difference between two classes. So these variances must be captured.
 
-Prinicipal Component Analysis is applied and the top 20 variance ratio
+
+
+Chi_Squared test is used to find the relationship between categorical features by measuring their independence.
+We hypothesize H0:Feature is independent of Result as our null statement
+We choose our p-value level to 0.05, If the p-value test result is more than 0.05 we fail to reject the Null Hypothesis. This means, there is no relationship between the feature  and Result feature based on the Chi-Square test of independence.
+For the features 'Statistical_report','Iframe','popUpWidnow','on_mouseover','Submitting_to_email','HTTPS_token','port','Favicon','having_At_Symbol' we fail to reject the Null hypothesis. So they are droped
+### Model Selection
+By using Kfold Cross Validation we compare different models.
+![Model accuracies](https://user-images.githubusercontent.com/60782716/87711717-49458900-c7c5-11ea-9976-36e855051847.PNG)
+
+KnearestNeighbors and RandomForest models have Greater accuracy and less standard deviation.So these models are taken for Tuning
+Before Hyper parameter Tuning, Principal component analysis is useful here to 
+Since there is an imbalance between classes model will be biased towards the majority class, Inorder to rectify that Synthetic Minority Over-sampling Technique (SMOTE)  is applied.
+Now using GridSearch Best Parameters for both Algorithms are obtained.
+
+### Model Efficiency
+
+
+
+
+
+
+
+
+
+
+
+ 
