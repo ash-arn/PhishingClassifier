@@ -49,7 +49,7 @@ Now using GridSearch Best Parameters for both Algorithms are obtained.
     weighted avg       0.99      0.99      0.99       492
     The Roc curve is given below:
     
-    ![aucrf](https://user-images.githubusercontent.com/60782716/87716546-9a0cb000-c7cc-11ea-8d73-e5f211b9342e.PNG)
+  ![aucrf](https://user-images.githubusercontent.com/60782716/87716546-9a0cb000-c7cc-11ea-8d73-e5f211b9342e.PNG)
     
     
     
@@ -67,13 +67,13 @@ Now using GridSearch Best Parameters for both Algorithms are obtained.
     weighted avg       0.98      0.98      0.98       492
     The Roc curve is given below:
 
-    ![aucknn](https://user-images.githubusercontent.com/60782716/87716534-9711bf80-c7cc-11ea-9b04-84456b1c02fb.PNG)
+ ![aucknn](https://user-images.githubusercontent.com/60782716/87716534-9711bf80-c7cc-11ea-9b04-84456b1c02fb.PNG)
 
 
 
 
 
-###### Since the Recall of minortity class ie Result=1 is more important to the business problem KNN is our final model
+#### Since the Recall of minortity class ie Result=1 is more important to the business problem KNN is our final model
 
 
  
