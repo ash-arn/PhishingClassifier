@@ -1,7 +1,7 @@
 # PhishingClassifier
 ### Buisness Problem:
      Phishing is the fraudulent attempt to obtain sensitive data, such as usernames, passwords by disguising a fake website
-     as a trustworthy website.It is important to identify Phishing websites.
+     as a trustworthy website.Therefore identifying Phishing websites maximizes internet security.
 ### Target Variable: Result
     If Result = 0, Not a Phishing website
     If Result = 1, Phishing website.
