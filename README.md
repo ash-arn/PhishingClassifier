@@ -13,6 +13,6 @@ Since predictors are categorical, they are plotted as Bivariate countplots  wher
 
 ![features1](https://user-images.githubusercontent.com/60782716/87689485-e2fd3e00-c7a5-11ea-8f8d-7c3705bb7c92.PNG)
 
-![features2](https://user-images.githubusercontent.com/60782716/87690161-b564c480-c7a6-11ea-800d-b1f85ca293e3.PNG)
+![features2](https://user-images.githubusercontent.com/60782716/87690496-2ad09500-c7a7-11ea-802c-7512518e5816.PNG)
 
 
