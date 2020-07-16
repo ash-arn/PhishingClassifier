@@ -12,6 +12,7 @@ The datatype of predictors are taken as int64, Howerver the predictors are nomin
 Since predictors are categorical, they are plotted as Bivariate countplots  where class labels are represented as color of the bars.
 
 ![features1](https://user-images.githubusercontent.com/60782716/87689485-e2fd3e00-c7a5-11ea-8f8d-7c3705bb7c92.PNG)
+
 ![features2](https://user-images.githubusercontent.com/60782716/87690161-b564c480-c7a6-11ea-800d-b1f85ca293e3.PNG)
 
 
