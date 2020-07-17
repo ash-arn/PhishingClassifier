@@ -57,7 +57,7 @@ Now using GridSearch Best Parameters for both Algorithms are obtained.
     The model had a Training accuracy of  0.9935004642525533 and Testing accuracy of0.979674796747967
     
     
-          precision    recall  f1-score   support
+                    precision    recall  f1-score   support
 
                0       1.00      0.97      0.98       285
                1       0.96      1.00      0.98       207
